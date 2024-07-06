@@ -144,13 +144,13 @@ public class MusteriDuyuru extends JFrame {
         Session session = Session.getInstance(props, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("sd.demirrkaya0606@gmail.com", "cpln zjjv xdwd uoqg");
+                return new PasswordAuthentication("sender e-mail address", "16-digit special password created specifically for e-mail by Gmail");
             }
         });
 
         try {
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("sd.demirrkaya0606@gmail.com"));
+            message.setFrom(new InternetAddress("sender e-mail address"));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
             message.setSubject(subject);
             message.setText(messageText);
