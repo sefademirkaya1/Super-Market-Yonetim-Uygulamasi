@@ -19,7 +19,7 @@ import java.util.Properties;
 	            @Override
 	            protected PasswordAuthentication getPasswordAuthentication() {
 	              
-	                return new PasswordAuthentication("sd.demirrkaya0606@gmail.com", "cpln zjjv xdwd uoqg");
+	                return new PasswordAuthentication("sender e-mail address", "Special password created by Gmail specifically for e-mail");
 	            }
 	        });
 
@@ -28,7 +28,7 @@ import java.util.Properties;
 	            session.setDebug(true);
 
 	          
-	            message.setFrom(new InternetAddress("sd.demirrkaya0606@gmail.com"));
+	            message.setFrom(new InternetAddress("sender e-mail address"));
 	            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
 	            message.setSubject("İnsan Kaynakları");
 	            message.setText("Sayın " + name + " " + surname + ",\n\n" +
@@ -52,6 +52,6 @@ import java.util.Properties;
 
 	    public static void main(String[] args) {
 	        
-	        sendEmail("1234567890", "sefa", "demirkaya", "sf.demirkaya06@gmail.com");
+	        sendEmail("1234567890", "sefa", "demirkaya", "recipient e-mail address");
 	    }
 	}
