@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/PostgreSQL/pgJDBC/postgresql-42.6.0.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse2023/eclipse/plugins/pdfbox-2.0.31-src.zip"/>
+	<classpathentry kind="lib" path="E:/eclipse2023/eclipse/plugins/pdfbox-app-2.0.31.jar" sourcepath="E:/eclipse2023/eclipse/plugins/pdfbox-2.0.31-src.zip"/>
+	<classpathentry kind="lib" path="E:/eclipse2023/eclipse/plugins/activation.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse2023/eclipse/plugins/javax.mail.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse2023/eclipse/plugins/flatlaf-demo-3.4.1.jar"/>
+	<classpathentry kind="lib" path="src/MarketYonetim/marketlogo.jpg"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
