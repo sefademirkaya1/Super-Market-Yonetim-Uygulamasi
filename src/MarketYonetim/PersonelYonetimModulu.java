@@ -548,7 +548,7 @@ public class PersonelYonetimModulu extends JFrame {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
                 
-                return new PasswordAuthentication("sd.demirrkaya0606@gmail.com", "cpln zjjv xdwd uoqg");
+                return new PasswordAuthentication("sender email", "16-digit special password created specifically for e-mail by Gmail");
             }
         });
 
@@ -557,7 +557,7 @@ public class PersonelYonetimModulu extends JFrame {
             session.setDebug(true);
 
            
-            message.setFrom(new InternetAddress("sd.demirrkaya0606@gmail.com"));
+            message.setFrom(new InternetAddress("sender email"));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
             message.setSubject("İnsan Kaynakları");
             message.setText("Sayın " + name + " " + pozisyon + " " + "pozisyonundaki" + ",\n\n" +
